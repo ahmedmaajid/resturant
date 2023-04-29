@@ -218,7 +218,7 @@ section .home h1 {
   font-size: 60px;
   padding: 15px;
   margin-top: 40px;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif, helvatica;
   text-align: center;
 }
 
@@ -255,7 +255,7 @@ section .home h1 {
 
 .card h3 {
   text-align: center;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif, helvatica;
   font-size: 25px;
   padding: 9px;
 }
@@ -267,7 +267,7 @@ section .home h1 {
 }
 
 .news {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif, helvatica;
   margin-top: 30px;
 }
 
