@@ -1,0 +1,345 @@
+@media screen and (max-width: 1200px) {
+  .news-cards h2 {
+    font-size: 20px;
+  }
+
+  .card-news-small .flexible {
+    justify-content: left;
+  }
+
+  .date {
+    margin-left: 10px;
+  }
+
+  .card-news-small img {
+    height: 250px;
+  }
+
+  .flex-cont {
+    /* justify-content: left; */
+    width: 88%;
+  }
+
+  .small-news-card {
+    justify-content: left;
+    width: 100%;
+  }
+
+  .small-news-card h2 {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+}
+
+@media screen and (max-width: 950px) {
+  footer .third-col {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact .grid {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .breakfast_menu .items {
+    place-items: center;
+  }
+
+  .lunch_menu .items .card {
+    width: 400px;
+    height: 430px;
+  }
+
+  .lunch_menu .items .card img {
+    height: 300px;
+  }
+
+  .lunch_menu .items {
+    justify-items: center;
+  }
+
+  .items .card {
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .items img {
+    height: 400px;
+    object-fit: cover;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .slide-content img {
+    height: 300px;
+  }
+
+  .card-news-small {
+    width: 32%;
+  }
+
+  .fluid {
+    width: 100%;
+  }
+
+  .flex-cont {
+    width: 100%;
+    flex-direction: column;
+  }
+  .small-news-card {
+    width: 100%;
+  }
+  .news {
+    left: 0;
+    width: 100%;
+  }
+  .slide-content {
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 7px;
+  }
+
+  .small-news-card h2 {
+    font-size: 15px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-text h1 {
+    font-size: 45px;
+  }
+
+  .hero-text h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer .col {
+    margin-top: 50px;
+  }
+
+  .grid-template {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .badge-promotion {
+    width: 90px;
+    padding: 3px;
+    font-size: 13px;
+  }
+
+  .flexible .badge {
+    font-size: 13px;
+  }
+
+  .badge-news {
+    font-size: 13px;
+    width: 60px;
+  }
+
+  .small-news-card {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .small-news-card .card-news-small {
+    height: 300px;
+    box-shadow: 0 4px 10px #ccc;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .small-news-card .caption {
+    margin-top: -90px;
+    color: white;
+  }
+
+  .date {
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 6px;
+    background: #000;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav-bar ul li a {
+    font-size: 14px;
+  }
+
+  .nav-bar .hotel_name {
+    font-size: 20px;
+  }
+
+  .nav-bar button {
+    padding: 7px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .nav-bar ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    position: absolute;
+    left: -120%;
+    bottom: 0;
+    transition: 0.3s all ease;
+    z-index: 999;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-bar ul {
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .toggle_bar {
+    visibility: visible;
+    position: absolute;
+    color: black;
+    z-index: 1000;
+    left: 20px;
+  }
+
+  .nav-bar .hotel_name {
+    font-size: 26px;
+    /* color: whitesmoke; */
+  }
+
+  .nav-bar button {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .nav-bar ul li a {
+    font-size: 24px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contact .grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+@media screen and (max-width: 500px) {
+  .items .card {
+    width: 100%;
+  }
+
+  .items .card h3 {
+    font-size: 17px;
+  }
+
+  .items {
+    width: 350px;
+    /* background: red; */
+    position: relative;
+    left: 30px;
+  }
+
+  .items .card .card-title {
+    justify-content: left;
+  }
+
+  .items {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .grid .f-col h1 {
+    font-size: 16px;
+  }
+
+  .grid .s-col h1 {
+    font-size: 16px;
+  }
+
+  .grid .c-flex {
+    width: 280px;
+  }
+
+  .contact_first_col p {
+    font-size: 14px;
+  }
+
+  .contact .grid {
+    justify-items: left;
+  }
+
+  .contact .grid .f-col p {
+    font-size: 15px;
+  }
+
+  .grid .s-col p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nav-bar .hotel_name {
+    font-size: 20px;
+  }
+
+  .items .card img {
+    height: 250px;
+  }
+
+  .items .card h3 {
+    font-size: 18px;
+  }
+
+  .items .card {
+    height: 400px;
+  }
+
+  .nav-bar button {
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  .contact .grid {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    overflow-x: auto;
+  }
+}
