@@ -182,7 +182,7 @@ section .home h1 {
 }
 
 .slide-content {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: normal;
   text-align: center;
   background: #03030377;
@@ -255,7 +255,7 @@ section .home h1 {
 
 .card h3 {
   text-align: center;
-  font-family: Montserrat, sans-serif, helvatica;
+  font-family: Montserrat, sans-serif;
   font-size: 25px;
   padding: 9px;
 }
@@ -267,7 +267,7 @@ section .home h1 {
 }
 
 .news {
-  font-family: Montserrat, sans-serif, helvatica;
+  font-family: Montserrat, sans-serif;
   margin-top: 30px;
 }
 
